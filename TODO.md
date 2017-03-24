@@ -10,7 +10,6 @@ List of TODO items for Superset
     Superset would discover and expose the plugins
 
 ## Features
-* **Dashboard URL filters:** `{dash_url}#fltin__fieldname__value1,value2`
 * **Default slice:** choose a default slice for the dataset instead of
     default endpoint
 * **Widget sets / chart grids:** a way to have all charts support making
@@ -24,17 +23,16 @@ List of TODO items for Superset
     attached to a layer and time range. These layers can be added on top of
     some visualizations as annotations. An example of a layer might be
     "holidays" or "site outages", ...
-* **Slack integration** - TBD
 * **Comments:** allow for people to comment on slices and dashes
 
 
 ## Easy-ish fix
 * Build matrix to include mysql using tox
-* CREATE VIEW button from SQL editor
 * Test button for when editing SQL expression
 * Slider form element
 * [druid] Allow for post aggregations (ratios!)
 * in/notin filters autocomplete (druid)
+* Add more spinners
 
 ## New viz
 * Maps that use geocodes
